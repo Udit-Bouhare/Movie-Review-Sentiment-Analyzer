@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../flask"
+		},
+		{
+			"path": "../../End_to_end_project"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
