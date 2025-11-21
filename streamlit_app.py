@@ -3,7 +3,8 @@ import numpy as np
 import pickle
 from load_glove import load_glove
 
-glove = load_glove("glove.6B.100d.txt")
+with open("glove_vectors.pkl", "rb") as f:
+    glove = pickle.load(f)
 model = pickle.load(open("glove_sentiment_model.pkl", "rb"))
 
 def sentence_vector(text, glove, dim=100):
